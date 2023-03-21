@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+     <title>small bigger</title>
+    <script>
+       
+       // var a = prompt("Please Enter The value");
+       // var b = prompt("Please Enter The Value");
+       // var c = prompt("Please Enter The Value");
+       // var x = (a,b,c);
+       // console.log(x);
+
+        function check(){
+            var a = parseInt(document.getElementById('data').value);
+            var b = parseInt(document.getElementById('data1').value);
+            var c = parseInt(document.getElementById('data2').value);
+            var x = (a,b,c);
+            document.getElementById('answer').value = x;
+
+        }
+
+    </script>
+    
+</head>
+<body>
+            <input type="text" class="input" id="data">
+            <input type="text" class="input" id="data1">
+            <input type="text" class="input" id="data2">
+            <button class="button is-primary" onclick="check()">Answer</button>
+            <input type="text" class="input" id="answer">
+</body>
+</html>
