@@ -14,7 +14,7 @@
                 var strStore = "";
                 for (let i = 1; i <= userValue; i++) {
                     if (i % 2 !== 0) {
-                        strStore = strStore  + i ;
+                        strStore = strStore +" " + i ;
                          document.getElementById('data2').value = strStore;
                         
                          }
@@ -27,7 +27,7 @@
                 var strStore = "";
                 for (let i = 1; i <= userValue; i++) {
                     if (i % 2 == 0) {
-                        strStore = strStore + i;
+                        strStore = strStore +" " + i;
                          document.getElementById('data3').value = strStore;
                          
                          }
@@ -73,7 +73,7 @@
     <input class="input" type="text" id="data1" placeholder="enter value">
     <input class="input" type="text" id="data2" placeholder="odd value">    
     <input class="input" type="text" id="data3" placeholder="even  value">
-    <button class="button is-primary" onclick="odd()">odd number</button>
+    <button class="button is-primary" onclick="odd()">odd number11</button>
     <button class="button is-primary" onclick="even()">even number</button>
     <br>
     
